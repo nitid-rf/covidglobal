@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import service from "../../services/service";
+import Moment from "react-moment";
 
 function Chart() {
   const [dataCovid, setDataCovid] = useState("");
@@ -39,7 +40,9 @@ function Chart() {
       <div>
         <header style={{ textAlign: "center" }}>
           <h1>Covid Global Cases By SGN</h1>
-          <p>Date : {dataCovid.updated}</p>
+          <p>
+            Date : <Moment format="MM/DD/YYYY">{dataCovid.updated}</Moment>
+          </p>
         </header>
 
         <body>
