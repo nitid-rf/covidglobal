@@ -39,12 +39,8 @@ function Chart() {
       <div>
         <header style={{ textAlign: "center" }}>
           <h1>Covid Global Cases By SGN</h1>
+          <p>Date : {dataCovid.updated}</p>
         </header>
-        {/* <p>Date : {dataCovid.updated}</p>
-        <p>All Case : {dataCovid.cases}</p>
-        <p>Today Case : {dataCovid.todayCases}</p>
-        <p>Today Death : {dataCovid.todayDeaths}</p>
-        <p>Todat Recover : {dataCovid.todayRecovered}</p> */}
 
         <body>
           {countries.map(function (list, index) {
