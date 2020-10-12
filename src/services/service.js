@@ -5,7 +5,7 @@ const getAll = () => {
 };
 
 const getDetailByCountry = () => {
-    return instance.get(`/countries`);
+    return instance.get("/countries");
   };
 
 
