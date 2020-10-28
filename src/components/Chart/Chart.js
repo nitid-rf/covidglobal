@@ -19,8 +19,8 @@ function Chart() {
         setDataCovid(response.data);
         console.log(response.data);
       })
-      .catch((e) => {
-        console.log(e);
+      .catch((error) => {
+        console.log(error);
       });
   };
 
@@ -31,8 +31,8 @@ function Chart() {
         setCountries(response.data);
         console.log(response.data);
       })
-      .catch((e) => {
-        console.log(e);
+      .catch((error) => {
+        console.log(error);
       });
   };
 

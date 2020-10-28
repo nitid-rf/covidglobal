@@ -6,10 +6,14 @@ const getAll = () => {
 
 const getDetailByCountry = () => {
     return instance.get("/countries");
-  };
+};
 
+  const getCaseAll = () => {
+    return instance.get("/historical");
+};
 
 export default {
   getAll,
-  getDetailByCountry
+  getDetailByCountry,
+  getCaseAll
 };
